@@ -1,21 +1,21 @@
 Day 3 (15/11/24)
 
-#NB:Write program with every fuctions...save is as a single python file
+## NB:Write program with every fuctions...save is as a single python file
 
-Task :Understand and use the math module in Python
+# Task :Understand and use the math module in Python
 
-##Discription
+## Description
 
 The Python math module provides access to a wide range of mathematical functions, constants, and tools that are commonly used in numerical computations It includes functions for trigonometry, logarithms, square roots, and other advanced mathematical operations
 
-##NB:Value should be take from the user input
+## NB:Value should be take from the user input
 
 To use the math module, you need to import it first using:
-import math
+# import math
 
-Common functions in math module
+# Common functions in math module
 
-1)math.sqrt(x):
+## 1)math.sqrt(x):
 Returs the square root of x
 
 #syntax of math.sqrt
@@ -23,7 +23,7 @@ import math
 result = math.sqrt(x)
 
 
-2)math.floor(x):
+## 2)math.floor(x):
 Returns the largest integer less than or equal to x (rounds down).
 
 #syntax of math.floor(x)
@@ -31,7 +31,7 @@ import math
 result = math.floor(x)
 
 
-3)math.pow(x,y):
+## 3)math.pow(x,y):
 Returns x raise th the power y
 
 #syntax of math.pow(x,y)
@@ -39,7 +39,7 @@ import math
 result = math.pow(x,y)
 
 
-4)math.factorial(x):
+## 4)math.factorial(x):
 Returns the factorial of x
 
 #syntax of math.factorial(x)
@@ -47,7 +47,7 @@ import math
 result = math.factorial(x)
 
 
-5)math.log(x):
+## 5)math.log(x):
 Returns the natural logarithm of x.
 
 #syntax of math.log(x)
@@ -55,38 +55,39 @@ import math
 result = math.log(x)
 
 
-#Constants in Math Module:
+# Constants in Math Module:
 
-1)math.pi:
+## 1)math.pi:
 Returns the value of pi(π)
 import math
-print(math.pi)  # Output: 3.141592653589793
+print(math.pi)  
+Output: 3.141592653589793
 
-2)math.e:
+## 2)math.e:
 Returns the value of Euler's number (e).
 import math
-print(math.e)  # Output: 2.718281828459045
+print(math.e)  
+Output: 2.718281828459045
 
-#Trigonometric Functions:
+# Trigonometric Functions:
 Function Description Example
 
-1)math.sin(x) 
+## 1)math.sin(x) 
 Returns the sine of x (in radians). math.sin(math.pi / 2) → 1.0
-
-2)math.cos(x) 
+## 2)math.cos(x) 
 Returns the cosine of x (in radians). math.cos(math.pi) → -1.0
 
-3)math.tan(x) 
+## 3)math.tan(x) 
 Returns the tangent of x (in radians). math.tan(0) → 0.0
 
-4)math.asin(x) 
+## 4)math.asin(x) 
 Returns the arcsine of x.
 math.asin(1) → π/2
 
-5)math.acos(x) 
+## 5)math.acos(x) 
 Returns the arccosine of x. 
 math.acos(0) → π/2
 
-6)math.atan(x) 
+## 6)math.atan(x) 
 Returns the arctangent of x. 
 math.atan(1) → π/4
