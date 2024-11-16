@@ -19,7 +19,6 @@ To use the math module, you need to import it first using:
 Returs the square root of x
 
 #syntax of math.sqrt
-
 import math
 result = math.sqrt(x)
 
