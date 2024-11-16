@@ -11,7 +11,7 @@ The Python math module provides access to a wide range of mathematical functions
 ## NB:Value should be take from the user input
 
 To use the math module, you need to import it first using:
-# import math
+```import math```
 
 # Common functions in math module
 
