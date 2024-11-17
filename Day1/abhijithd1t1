@@ -1,1 +1,3 @@
-
+print("Hello, World!")
+print("Welcome to the Python Challenge!")
+print("Let's make learning Python fun!")
