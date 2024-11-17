@@ -1,1 +1,16 @@
-
+a = int(input("enter first number :"))
+b = int(input("enter second number :"))
+sum = a+b
+print ("sum ",sum)
+diffrence = a-b
+print("diffrence ",diffrence)
+product = a*b
+print("product is ",product )
+quotient = a/b
+print ("quotient is ",quotient)
+floor_division= a//b
+print("floor_division is ",floor_division)
+power = a**b
+print("power value is  ", power)
+modulus = a%b
+print("modulus is ",modulus)
