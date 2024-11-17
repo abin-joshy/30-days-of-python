@@ -1,1 +1,13 @@
-
+import math
+num1=int(input("Enter the first number:"))
+num2=int(input("Enter the second number:"))
+print(math.sqrt(num1))
+print(math.floor(num2))
+print(math.pow(num1,num2))
+print(math.factorial(num1))
+print(math.log(num1))
+print(math.pi)
+print(math.e)
+print(math.sin(num1))
+print(math.cos(num1))
+print(math.tan(num1))
